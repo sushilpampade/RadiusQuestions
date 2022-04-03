@@ -1,0 +1,58 @@
+package Questions;
+
+public class Student {
+
+	String name;
+	
+	Student(String name)
+	{
+		this.name=name;
+		
+	}
+	public int hashCode()
+	{
+		return 100;
+	}
+	
+	public boolean equals(Object o)
+	{
+		try {
+			
+		String name=this.name;
+		Student s=(Student)o;
+		String name2=s.name;
+		
+		if(name.equals(name2))
+		{
+			return true;
+		}
+		else {
+		return false;
+		}
+		}
+		catch(ClassCastException e)
+		{
+			return false;
+		}
+		catch(NullPointerException e)
+		{
+			return false;
+		}
+	}
+
+	public static void main(String[] args) {
+
+		Student s=new Student("Sushil");
+		Student s1=new Student("Sushil");
+		Student s2=new Student("Sushil");
+
+		System.out.println(s.equals(s2));
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s.hashCode());
+
+
+		
+	}
+
+}

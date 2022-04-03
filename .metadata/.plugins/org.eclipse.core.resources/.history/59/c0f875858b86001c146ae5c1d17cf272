@@ -1,0 +1,48 @@
+package Questions;
+
+import java.util.TreeSet;
+class EmployeeList implements Comparable{
+	String name;
+	int age;
+	int salary;
+	
+	EmployeeList(String name,int age,int salary)
+{
+	this.name=name;
+	this.age=age;
+	this.salary=salary;
+}
+ public String toString()
+ {
+	 return name+".."+age+"..."+salary;
+ }
+ public int compareTo(Object obj)
+ {
+	 int age=this.age;
+	 EmployeeList e=(EmployeeList)obj;
+	 int age2=e.age;
+	 if(age<age2)
+	 {
+		 return -1;
+	 }
+	 else if(age>age2)
+	 {
+		 return +1;
+	 }
+	 else 
+		 return 0;
+ }
+}
+class Main
+{
+	public static void main(String[] args) {
+	EmployeeList e=new EmployeeList("satish",3,6000);
+	EmployeeList e1=new EmployeeList("sushil",2,7800);
+	EmployeeList e2=new EmployeeList("vijay",1,1800);
+	EmployeeList e3=new EmployeeList("pooja",7,1300);
+	
+	TreeSet t=new TreeSet();
+	t.add(e); 	t.add(e1);	t.add(e2);	t.add(e3);
+   System.out.println(t);
+	}
+}

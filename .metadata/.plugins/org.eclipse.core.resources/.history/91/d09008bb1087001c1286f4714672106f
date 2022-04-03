@@ -1,0 +1,26 @@
+package Questions;
+
+public class Student {
+
+	String name;
+	int age;
+	Student(String name ,int age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+	public String toString()
+	{
+		return name+".."+age;
+	}
+	
+	public static void main(String[] args) {
+
+		Student s=new Student("Sushil",24);
+		Student s1=new Student("Sushil",24);
+		System.out.println(s.equals(s1));
+		System.out.println(s);
+		
+	}
+
+}

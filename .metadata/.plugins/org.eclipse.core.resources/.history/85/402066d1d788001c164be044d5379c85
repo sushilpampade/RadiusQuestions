@@ -1,0 +1,16 @@
+package com.example.mvc;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TestB {
+	
+	private TestA a;
+
+	public TestB(TestA a) {
+		super();
+		this.a = a;
+	}
+	
+
+}

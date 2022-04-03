@@ -1,0 +1,54 @@
+package Questions;
+
+public class Student {
+
+	String name;
+	int age;
+	Student(String name ,int age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+	public String toString()
+	{
+		return name+".."+age;
+	}
+	public boolean equals(Object o)
+	{
+		try {
+			
+		String name=this.name;
+		Student s=(Student)o;
+		String name2=s.name;
+		int age =this.age;
+		int age2=s.age;
+		if(name.equals(name2) && age==age2)
+		{
+			return true;
+		}
+		else {
+		return false;
+		}
+		}
+		catch(ClassCastException e)
+		{
+			return false;
+		}
+		catch(NullPointerException e)
+		{
+			return false;
+		}
+	}
+
+	public static void main(String[] args) {
+
+		Student s=new Student("Sushil",24);
+		Student s1=new Student("Sushil",24);
+		Student s2=new Student("satish",24);
+
+		System.out.println(s.equals(s1));
+		System.out.println(s);
+		
+	}
+
+}

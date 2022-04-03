@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="base.MathUtilsTest" time="0.005" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/test-classes:/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/classes:/Users/sushil/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/Users/sushil/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/sushil/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/Users/sushil/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/Users/sushil/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/sushil/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Volumes/Spring Tool Suite 4/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.1.v20211116-1657/jre/lib"/>
+    <property name="sun.java.command" value="/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/surefire/surefirebooter2764745021965032501.jar /Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/surefire 2022-01-24T13-15-39_889-jvmRun1 surefire3494522748939252675tmp surefire_012418437036786255155tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/test-classes:/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/classes:/Users/sushil/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/Users/sushil/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/sushil/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/Users/sushil/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/Users/sushil/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/sushil/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sushil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Volumes/Spring Tool Suite 4/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.1.v20211116-1657/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic/target/surefire/surefirebooter2764745021965032501.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="sushil"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="/Users/sushil/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/_s/87k9ldw16_z6xzfd9swlx_9w0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/sushil/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/junit-basic"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sushil/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test" classname="base.MathUtilsTest" time="0.003"/>
+  <testcase name="nameCheck" classname="base.MathUtilsTest" time="0.001"/>
+</testsuite>

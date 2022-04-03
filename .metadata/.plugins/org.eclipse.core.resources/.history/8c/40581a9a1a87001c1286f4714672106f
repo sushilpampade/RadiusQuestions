@@ -1,0 +1,22 @@
+package Questions;
+public class Base
+{
+    public int multiplier(int data)
+    {
+        return data*5;
+    }
+}
+  
+class Base extends Base
+{
+    private static int data;
+    public Base()
+    {
+        data = 25;
+    }
+    public static void main(String[] args)
+    {
+        Base temp = new Base();
+        System.out.println(temp.multiplier(data));
+    }
+}

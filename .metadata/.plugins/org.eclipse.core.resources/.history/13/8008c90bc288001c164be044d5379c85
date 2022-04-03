@@ -1,0 +1,28 @@
+package Questions;
+
+import java.util.Arrays;
+
+public class LargestAndSmallestElementArray {
+	int max;
+	int min;
+	public static void main(String[] args) {
+
+		int[] x= {3,6,2,7,2,7,8,1};
+		Arrays.sort(x);
+	    
+		for(int y:x) {
+			if(y>max)
+			{
+				max=y;
+			}
+			if(y<min)
+			{
+				min=y;
+			}
+		}
+		System.out.println("max="+max);
+		System.out.println("min="+min);
+
+	}
+
+}
